@@ -22,7 +22,7 @@ My Plugin - бесплатный шаблон плагина пустышки д
 2. Выберите .zip архив плагина *myPlugin*.
 3. Установите плагин *myPlugin* и активируйте его.
 
-## Frequently Asked Questions ==
+## Frequently Asked Questions
 
 ## Screenshots
 

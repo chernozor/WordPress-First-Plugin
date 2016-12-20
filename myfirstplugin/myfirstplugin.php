@@ -36,7 +36,7 @@ add_action('admin_menu', function () {
 function add_myfirstplugin_setting() {
     $myfirstplugin_settings_page = new myFirstPluginSettingsPage();
     if (!isset($myfirstplugin_settings_page)) {
-        wp_die(__('Plugin uLogin has been installed incorrectly.'));
+        wp_die(__('Plugin My First Plugin has been installed incorrectly.'));
     }
     if (function_exists('add_plugins_page')) {
         add_plugins_page('My First Plugin Settings', 'My First Plugin', 'manage_options', basename(__FILE__), array(&$myfirstplugin_settings_page, 'create_myfirstplugin_admin_page'));
